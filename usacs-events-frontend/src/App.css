@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #F6F6F6;
+}
+header{
+  margin: 2em;
+  margin-left: 12.5%;
+}
+
+#title{
+  border-bottom-width: 2em;
+  border-color: black;
+}
+
+#usacs-logo{
+  float: left;
+  height: 5em;
+  margin-right: 2em;
+  border-style: groove;
+  border-color: #333333;
+}
+
+#events-list{
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  background-color: #E8E8E8;
+  padding: 2em;
+  border-style: groove;
+  border-color: #333333;
+}
+
+#event-listing{
+  height: 7.5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right:10%;
+  margin-top: 5%;
+  padding: 2%;
+  background-color: #F6F6F6;
+  border-style: groove;
+  border-color: #333333;
+  position: relative;
+  
+}
+
+.rsvp-container{
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+.event-name-listing{
+  transition: 0.5s;
+}
+
+.rsvp-link{
+  margin-left: 1.5em;
+  text-decoration: underline;
+  transition: 0.5s;
+
+}
+
+.rsvp-link:hover, .event-name-listing:hover{
+  color: #AF2F2E;
+}
+
+.event-going-container{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin-right: 1em;
+}
+
+.banner-container{
+  height: 100%;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+
+.event-banner{
+  margin: 5% 0% 5% 0%;
+  max-height: 25em;
+  max-width: inherit;
+}
+
+.page-rsvp-container{
+  left: 2em;
+  background-color: #333333;
+  color: #F6F6F6;
+  text-align: center;
+}
+
+.rsvp-form{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.rsvp-register-link{
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.rsvp-register-link:hover{
+  color: #AF2F2E;
+}
+
+.event-code-textbox{
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 15em;
+  background: transparent;
+  border: 0;
+  color: #F6F6F6;
+  border-bottom: 2px solid #F6F6F6;
+}
+
+.event-code-textbox::placeholder{
+  color: #F6F6F6;
+}
+
+.event-code-submit{
+  width: inherit;
+  background: transparent;
+  border: 0;
+  color: #F6F6F6;
+  transition: 0.75s;
+}
+
+.event-code-submit:hover{
+  color: #B90504;
+}
+
+.event-page-content{
+  max-width: 66%;
+  margin: 5% 16% 5% 16%;
+  padding: 5%;
+  background-color: #E8E8E8;
+}
+
+.event-name{
+  text-decoration: underline;
+}
+
+.admin-event{
+  display: inline-block;
+  margin-left: 1em;
+  text-decoration: underline;
+  transition: 0.75s;
+}
+
+.admin-event:hover{
+  color: #B90504;
+}
+
+.admin-form {
+  align-items: center;
+}
+
+.form-field{
+  width: 50%;
+  margin: 5%;
+  display: block;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+  color: #333333;
+  border-bottom: 2px solid #333333;
+}
+
+.submit{
+  width: inherit;
+  background: transparent;
+  border: 0;
+  color: #333333;
+  transition: 0.75s;
+}
+
+.submit:hover{
+  color: #B90504;
+}
